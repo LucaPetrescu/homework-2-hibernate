@@ -1,5 +1,10 @@
 package edu.jpa.entity;
 
+import jakarta.persistence.Entity;
+import org.hibernate.annotations.Table;
+
+@Entity
+@Table(name="Country")
 public class Company {
     private int id;
     private String name;
